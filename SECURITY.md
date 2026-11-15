@@ -46,7 +46,7 @@ Divulgation coordonnée :
   90 jours.
 
 Conformément à [GOVERNANCE.md 6](GOVERNANCE.md#6-gouvernance-de-la-sécurité), un correctif
-de sécurité peut être publié avant le processus ADR habituel ; l'ADR qui le documente est
+de sécurité peut être publié avant le processus de décision habituel ; la décision qui le documente est
 publiée en même temps que le correctif.
 
 ## Périmètre
@@ -70,7 +70,7 @@ la passerelle, le serveur simulé, les SDK et la suite de conformité.
 La passerelle OpenFSP est **auto-hébergée** : l'exploitant détient les secrets
 d'opérateur, et le projet n'exploite aucun service hébergé ni ne manipule de fonds. Voir la
 [spécification
-d'architecture](https://github.com/openfspht/adrs/blob/main/spec/architecture.md#déploiement-et-confiance).
+d'architecture](https://openfsp.org/fr/docs/architecture).
 
 Le projet répond des défauts du logiciel publié ; l'exploitant répond de sa configuration et
 de son exploitation. Un guide de durcissement pour les exploitants sera livré avec la passerelle.

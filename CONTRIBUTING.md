@@ -19,13 +19,14 @@ différemment, même si les implémentations actuelles concordent.
 ### Ouvrez une pull request quand
 
 Le changement ne modifie pas ce qu'une implémentation conforme doit faire. Liste :
-[GOVERNANCE.md 4](GOVERNANCE.md#4-comment-les-décisions-sont-prises), *ADR non requise*.
+[GOVERNANCE.md 4](GOVERNANCE.md#4-comment-les-décisions-sont-prises), *Décision non requise*.
 
-### Écrivez une ADR quand
+### Proposez une décision quand
 
 Le changement modifie ce qu'une implémentation conforme doit faire. Liste :
-[GOVERNANCE.md 4](GOVERNANCE.md#4-comment-les-décisions-sont-prises), *ADR requise*.
-Gabarit et procédure : [processus ADR](https://github.com/openfspht/adrs).
+[GOVERNANCE.md 4](GOVERNANCE.md#4-comment-les-décisions-sont-prises), *Décision requise*.
+Procédure : une pull request qui ajoute une section à la page [Décisions](https://openfsp.org/fr/docs/decisions),
+sur [openfspht/openfsp.org](https://github.com/openfspht/openfsp.org).
 
 ## Developer Certificate of Origin (DCO)
 
@@ -62,7 +63,7 @@ Je ne fusionne pas les commits sans signature.
 
 **Langue.** La spécification et les documents de gouvernance sont rédigés en français. Le code, les identifiants, les commentaires et les messages de commit sont en
 anglais. Les tickets sont rédigés de préférence en anglais ; je lis aussi le français et le créole
-haïtien dans les tickets, les pull requests et les fils d'ADR.
+haïtien dans les tickets, les pull requests et les pull requests de décision.
 
 **Messages de commit.** Conventional Commits : `type(portée): résumé à l'impératif`, en
 anglais. Types : `feat`, `fix`, `docs`, `test`, `refactor`, `perf`, `build`, `ci`, `chore`,

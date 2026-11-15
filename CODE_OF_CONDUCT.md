@@ -8,7 +8,7 @@ Le texte français officiel fait foi pour ce projet :
 ## Portée
 
 Le code s'applique dans tous les espaces du projet (dépôts, tickets, pull requests, fils
-d'ADR, discussions) et lorsqu'une personne représente le projet dans un espace public.
+de décision, discussions) et lorsqu'une personne représente le projet dans un espace public.
 
 ## Signalement
 

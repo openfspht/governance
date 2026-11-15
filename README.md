@@ -8,7 +8,7 @@
 **Proposition de norme ouverte d'intégration des paiements en Haïti**
 
 [![Licence](https://img.shields.io/badge/licence-Apache--2.0-blue)](LICENSE)
-[![Statut](https://img.shields.io/badge/statut-sp%C3%A9cification%20en%20brouillon-orange)](https://github.com/openfspht/adrs)
+[![Statut](https://img.shields.io/badge/statut-sp%C3%A9cification%20en%20brouillon-orange)](https://openfsp.org)
 
 </div>
 
@@ -53,8 +53,8 @@ flowchart LR
 
 ## Pour aller plus loin
 
-Spécification et ADR : [openfspht/adrs](https://github.com/openfspht/adrs). Gouvernance :
+Spécification et décisions : [openfsp.org](https://openfsp.org). Code : [openfspht/openfsp](https://github.com/openfspht/openfsp). Gouvernance :
 [GOVERNANCE.md](GOVERNANCE.md). Licence : [Apache-2.0](LICENSE).
 
 **Contribuer** : je reçois relectures et propositions par le
-[processus ADR](https://github.com/openfspht/adrs), selon [CONTRIBUTING.md](CONTRIBUTING.md).
+processus de décision, selon [CONTRIBUTING.md](CONTRIBUTING.md).

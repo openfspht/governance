@@ -10,7 +10,7 @@ OpenFSP est édité et porté par **Karako Systems** (Haïti, https://karakosyst
 détient la gouvernance du projet, ses dépôts et son nom.
 
 Karako Systems nomme l'**éditeur**, décideur technique du projet, responsable de la
-cohérence de la spécification, des ADR et de la publication de la suite de
+cohérence de la spécification, des décisions et de la publication de la suite de
 conformité.
 
 **Je suis aujourd'hui le seul éditeur, sans autre mainteneur.** Conditions d'ouverture : 7.
@@ -21,9 +21,9 @@ Karako Systems construit des produits commerciaux au-dessus d'OpenFSP. Cet inté
 encadré par quatre contraintes :
 
 1. **Aucune voie privilégiée.** Les changements motivés par un produit commercial du
-   porteur passent par le même processus ADR public que tout autre changement, sous la même
+   porteur passent par le même processus de décision public que tout autre changement, sous la même
    relecture, dans les mêmes délais.
-2. **Motivation déclarée.** Quand une ADR est poussée par un besoin d'un produit du
+2. **Motivation déclarée.** Quand une décision est poussée par un besoin d'un produit du
    porteur, sa section *Décision* le dit.
 3. **Aucun verrouillage par la spécification.** La spécification ne doit pas contenir
    d'exigence dont le seul objet serait d'avantager une implémentation. Tout relecteur
@@ -58,10 +58,11 @@ Engagements de Karako Systems envers tous les adoptants d'OpenFSP :
 
 ## 4. Comment les décisions sont prises
 
-### ADR requise
+### Décision requise
 
-Une ADR (voir [`adrs`](https://github.com/openfspht/adrs)) est requise pour tout ce qui
-change ce qu'une implémentation conforme doit faire :
+Une décision écrite est une section de la page [Décisions](https://openfsp.org/fr/docs/decisions),
+proposée par pull request sur [openfspht/openfsp.org](https://github.com/openfspht/openfsp.org).
+Elle est requise pour tout ce qui change ce qu'une implémentation conforme doit faire :
 
 - Tout changement des messages échangés entre client et passerelle : ressources, champs, valeurs de statut, codes
   d'erreur.
@@ -70,24 +71,24 @@ change ce qu'une implémentation conforme doit faire :
 - Tout changement des exigences de conformité ou du sens de la suite de conformité.
 - Tout changement de versionnement, de dépréciation ou d'exigence de sécurité.
 - La suppression ou la dépréciation de quoi que ce soit de déjà spécifié.
-- Ce document, et le processus ADR lui-même.
+- Ce document, et le processus de décision lui-même.
 
-### ADR non requise
+### Décision non requise
 
 Une pull request suffit pour :
 
 - Le travail d'implémentation qui ne modifie pas le comportement spécifié : corrections de
   bogues, performance, remaniement, structure interne de la passerelle ou des SDK.
 - Les nouveaux adaptateurs d'opérateurs, lorsque l'opérateur entre dans le modèle de
-  capacités existant. Sinon, une ADR.
+  capacités existant. Sinon, une décision écrite.
 - La documentation, les exemples, les tests, l'outillage, les traductions.
-- Les corrections éditoriales d'une ADR qui n'en changent pas le sens.
+- Les corrections éditoriales d'une décision écrite qui n'en changent pas le sens.
 
 En cas de doute sur la voie, ouvrez un ticket et posez la question.
 
 ### Résolution
 
-Je décide publiquement, dans le fil de l'ADR, avec des motifs. Je recherche le consensus,
+Je décide publiquement, dans la pull request de la décision, avec des motifs. Je recherche le consensus,
 sans en faire une exigence formelle tant que je suis le seul éditeur.
 
 ## 5. Garanties de stabilité
@@ -97,7 +98,7 @@ sans en faire une exigence formelle tant que je suis le seul éditeur.
   incrément MAJEUR peut casser les implémentations conformes ; un incrément MINEUR ajoute une
   capacité en restant rétrocompatible. Adaptation : un incrément CORRECTIF clarifie la
   formulation sans changer le comportement.
-- **La rétrocompatibilité n'est pas rompue sans une ADR.** Aucune exception pour
+- **La rétrocompatibilité n'est pas rompue sans une décision écrite.** Aucune exception pour
   l'urgence.
 - **Une dépréciation exige un préavis d'une version MAJEURE complète.** Ce qui est déprécié
   en `2.x` ne peut être retiré avant `3.0`, et doit être marqué comme déprécié dans la
@@ -106,17 +107,17 @@ sans en faire une exigence formelle tant que je suis le seul éditeur.
 - **Les errata sont tracés.** Une formulation publiée fausse ou ambiguë est corrigée sur
   place par un commit qui le dit.
 - **Exception avant 1.0.** Avant `1.0.0`, des changements cassants peuvent survenir entre
-  versions MINEURES. Chacun exige une ADR.
+  versions MINEURES. Chacun exige une décision écrite.
 
 ## 6. Gouvernance de la sécurité
 
 Les signalements de vulnérabilité suivent [SECURITY.md](SECURITY.md) et sont traités en
 privé jusqu'à la disponibilité d'un correctif.
 
-Un correctif de sécurité peut être publié sans ADR publique préalable lorsque la
-divulgation mettrait des déploiements en danger. L'ADR documentant le changement est alors
+Un correctif de sécurité peut être publié sans décision publique préalable lorsque la
+divulgation mettrait des déploiements en danger. La décision documentant le changement est alors
 publiée avec le correctif. La sécurité est le seul motif pour lequel l'exigence
-d'ADR peut être différée.
+de décision peut être différée.
 
 ## 7. Ouverture de la gouvernance
 
@@ -124,7 +125,7 @@ Un **comité de pilotage technique (TSC)** est établi dès que l'une des condit
 remplie :
 
 - **(a)** Trois personnes ou plus extérieures à Karako Systems ont chacune mené à bien des
-  contributions substantielles et indépendantes (une ADR, un adaptateur
+  contributions substantielles et indépendantes (une décision écrite, un adaptateur
   d'opérateur, ou un SDK maintenu) et acceptent d'y siéger ; ou
 - **(b)** Un opérateur de paiement, une institution financière ou une autorité publique
   adopte OpenFSP en production ou le soutient formellement.
@@ -167,7 +168,7 @@ usage ; s'il l'est, sur le titre lui-même.
 concession :
 
 - Une revendication affirme un résultat de la [suite de
-  conformité](https://github.com/openfspht/adrs/blob/main/spec/conformite.md). Elle repose sur
+  conformité](https://openfsp.org/fr/docs/spec/conformance). Elle repose sur
   un rapport de réussite publié avec sa configuration, pour la version revendiquée de
   l'implémentation. Chacun exécute la suite lui-même : ni soumission, ni approbation.
 - Forme : `OpenFSP conformant <cible>, <niveau>, protocol <version>`, suivie des profils
@@ -188,9 +189,9 @@ libre : ce ne sont pas des revendications de conformité.
 
 ## 9. Amender ce document
 
-Les changements apportés à ce document exigent une ADR, avec une exception :
+Les changements apportés à ce document exigent une décision écrite, avec une exception :
 l'établissement du TSC prévu à la section 7 se produit automatiquement dès que son déclencheur
-est atteint, et ne nécessite pas d'ADR pour prendre effet.
+est atteint, et ne nécessite pas de décision pour prendre effet.
 
 ---
 
