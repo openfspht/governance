@@ -1,6 +1,7 @@
 # Code of conduct
 
-I apply the **Contributor Covenant, version 2.1**, to OpenFSP, without modification.
+Karako Systems applies the **Contributor Covenant, version 2.1**, to OpenFSP, without
+modification.
 
 The official text is authoritative for this project:
 <https://www.contributor-covenant.org/version/2/1/code_of_conduct/>
@@ -15,11 +16,11 @@ threads, discussions) and when a person represents the project in a public space
 Report abusive, harassing or otherwise unacceptable behaviour to
 **hey@openfsp.org**, in English, French or Haitian Creole.
 
-I handle reports as the project's editor ([GOVERNANCE.md 1](GOVERNANCE.md#1-steward)),
-promptly and fairly, and I protect the privacy and safety of the person reporting.
+The project's editor ([GOVERNANCE.md 1](GOVERNANCE.md#1-steward)) handles reports promptly
+and fairly, and protects the privacy and safety of the person reporting.
 
-The actions I take follow the Contributor Covenant's ladder: correction, warning, temporary
+The actions taken follow the Contributor Covenant's ladder: correction, warning, temporary
 ban, permanent ban.
 
-If your report concerns me, write to **hey@openfsp.org**, where another person at
-Karako Systems receives it.
+If your report concerns the editor, say so in the subject: another person at Karako Systems
+handles it.

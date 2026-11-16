@@ -1,23 +1,23 @@
 # Governance
 
-I set out here who decides what, how I record decisions, what guarantees adopters receive,
-and on what conditions I open the governance.
+Karako Systems sets out here who decides what, how decisions are recorded, what guarantees
+adopters receive, and on what conditions the governance opens.
 
 ## 1. Steward
 
 OpenFSP is published and stewarded by **Karako Systems** (Haiti, https://karakosystems.com),
 which holds the project's governance, its repositories and its name.
 
-Karako Systems appoints the **editor**, the project's technical decision maker, responsible
+We appoint the **editor**, the project's technical decision maker, responsible
 for the consistency of the specification and the decisions, and for publishing the
 conformance suite.
 
-**I am currently the only editor, with no other maintainer.** Opening conditions: section 7.
+The editor is currently a single person, with no other maintainer. Section 7 sets the
+conditions for opening the governance.
 
 ## 2. Declared interest
 
-Karako Systems builds commercial products on top of OpenFSP. Four constraints govern this
-interest:
+We build commercial products on top of OpenFSP. Four constraints govern this interest:
 
 1. **No privileged path.** Changes driven by a commercial product of the steward go through
    the same public decision process as any other change, under the same review, within the
@@ -26,7 +26,7 @@ interest:
    products, its *Decision* section says so.
 3. **No lock-in through the specification.** The specification must not contain a
    requirement whose only purpose would be to favour one implementation. Any reviewer may
-   challenge a provision on that ground, and I commit to answering the challenge publicly
+   challenge a provision on that ground, and we commit to answering the challenge publicly
    before publishing the provision.
 4. **Feature access parity.** Every capability the steward's products use is part of the
    public specification. There is no undocumented extension.
@@ -34,7 +34,7 @@ interest:
 Reference: article 85 of the law of 14 May 2012 on banks and other financial institutions
 requires regulated institutions to act "fairly and equitably in the best interests of their
 clients and the integrity of the market", and to "endeavour to avoid conflicts of interest
-and, where they cannot be avoided, to ensure that their clients are treated fairly" (my
+and, where they cannot be avoided, to ensure that their clients are treated fairly" (our
 translation). Karako Systems is not a bank and is not bound by this article; the four
 constraints follow its form.
 
@@ -85,8 +85,8 @@ If you are unsure which path applies, open an issue and ask.
 
 ### Resolution
 
-I decide publicly, in the decision's pull request, with reasons. I seek consensus, without
-making it a formal requirement while I am the only editor.
+The editor decides publicly, in the decision's pull request, with reasons, and seeks
+consensus without making it a formal requirement while there is a single editor.
 
 ## 5. Stability guarantees
 

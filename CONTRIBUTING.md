@@ -4,15 +4,15 @@ Who decides what and which guarantees apply: [GOVERNANCE.md](GOVERNANCE.md).
 
 ## Response times
 
-I am the only editor of OpenFSP ([GOVERNANCE.md 1](GOVERNANCE.md#1-steward)). I aim for a
-first review within 7 days, and I review short contributions limited to one topic first.
+OpenFSP has one editor ([GOVERNANCE.md 1](GOVERNANCE.md#1-steward)). We aim for a first
+review within 7 days, and review short contributions limited to one topic first.
 For a large change, open an issue first.
 
 ## Choosing a path
 
 ### Open an issue when
 
-You found a bug or an ambiguity in the specification, or want to discuss an idea. I treat
+You found a bug or an ambiguity in the specification, or want to discuss an idea. We treat
 any sentence that two implementers read differently as a defect of the specification, even
 if the current implementations agree.
 
@@ -65,7 +65,7 @@ For a whole branch:
 git rebase --signoff main
 ```
 
-I do not merge unsigned commits.
+We do not merge unsigned commits.
 
 ## Repository conventions
 

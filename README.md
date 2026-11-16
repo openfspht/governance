@@ -59,5 +59,5 @@ contract into the existing MonCash and NatCash APIs, so it is usable today.
   [SECURITY.md](SECURITY.md)
 - License: [Apache-2.0](LICENSE)
 
-I take reviews and proposals through the decision process described in
+Karako Systems takes reviews and proposals through the decision process described in
 [CONTRIBUTING.md](CONTRIBUTING.md).
