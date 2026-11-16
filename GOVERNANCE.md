@@ -187,4 +187,4 @@ decision to take effect.
 
 ---
 
-*Questions about governance: dev@karakosystems.com*
+*Questions about governance: hey@openfsp.org*

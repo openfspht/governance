@@ -8,7 +8,7 @@ Report it privately:
 
 - **GitHub private vulnerability reporting** (preferred): the "Report a vulnerability"
   button under the Security tab of the affected repository.
-- **Email**: security@karakosystems.com.
+- **Email**: hey@openfsp.org.
 
 If you can, include: the affected component and version, what an attacker can achieve, the
 steps to reproduce, and any proof of concept.

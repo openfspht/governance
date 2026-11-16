@@ -89,7 +89,7 @@ Do not open a public issue. Follow [SECURITY.md](SECURITY.md).
 ## Code of conduct
 
 Participation is governed by the [code of conduct](CODE_OF_CONDUCT.md). Reports:
-conduct@karakosystems.com.
+hey@openfsp.org.
 
 ## License
 

@@ -13,7 +13,7 @@ threads, discussions) and when a person represents the project in a public space
 ## Reporting
 
 Report abusive, harassing or otherwise unacceptable behaviour to
-**conduct@karakosystems.com**, in English, French or Haitian Creole.
+**hey@openfsp.org**, in English, French or Haitian Creole.
 
 I handle reports as the project's editor ([GOVERNANCE.md 1](GOVERNANCE.md#1-steward)),
 promptly and fairly, and I protect the privacy and safety of the person reporting.
@@ -21,5 +21,5 @@ promptly and fairly, and I protect the privacy and safety of the person reportin
 The actions I take follow the Contributor Covenant's ladder: correction, warning, temporary
 ban, permanent ban.
 
-If your report concerns me, write to **dev@karakosystems.com**, where another person at
+If your report concerns me, write to **hey@openfsp.org**, where another person at
 Karako Systems receives it.
