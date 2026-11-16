@@ -1,0 +1,96 @@
+# Contributing to OpenFSP
+
+Who decides what and which guarantees apply: [GOVERNANCE.md](GOVERNANCE.md).
+
+## Response times
+
+I am the only editor of OpenFSP ([GOVERNANCE.md 1](GOVERNANCE.md#1-steward)). I aim for a
+first review within 7 days, and I review short contributions limited to one topic first.
+For a large change, open an issue first.
+
+## Choosing a path
+
+### Open an issue when
+
+You found a bug or an ambiguity in the specification, or want to discuss an idea. I treat
+any sentence that two implementers read differently as a defect of the specification, even
+if the current implementations agree.
+
+### Open a pull request when
+
+The change does not alter what a conforming implementation must do. List:
+[GOVERNANCE.md 4](GOVERNANCE.md#4-how-decisions-are-made), *Decision not required*.
+
+### Propose a decision when
+
+The change alters what a conforming implementation must do. List:
+[GOVERNANCE.md 4](GOVERNANCE.md#4-how-decisions-are-made), *Decision required*.
+Procedure: a pull request that adds a section to the
+[Decisions](https://openfsp.org/docs/decisions) page, on
+[openfspht/openfsp.org](https://github.com/openfspht/openfsp.org).
+
+## Where things live
+
+- Specification and decisions: [openfspht/openfsp.org](https://github.com/openfspht/openfsp.org),
+  published on [openfsp.org](https://openfsp.org).
+- Gateway, simulator, SDKs and conformance suite:
+  [openfspht/openfsp](https://github.com/openfspht/openfsp).
+- Governance: [openfspht/governance](https://github.com/openfspht/governance), this
+  repository.
+
+## Developer Certificate of Origin (DCO)
+
+OpenFSP uses no contributor license agreement: you keep your copyright. Each commit
+certifies the [Developer Certificate of Origin](DCO) with a `Signed-off-by` line:
+
+```bash
+git commit -s -m "fix: reject a payment amount of zero"
+```
+
+which adds:
+
+```
+Signed-off-by: Your Name <your.email@example.com>
+```
+
+Use your real name and a real email address. To sign the last commit afterwards:
+
+```bash
+git commit --amend -s --no-edit
+```
+
+For a whole branch:
+
+```bash
+git rebase --signoff main
+```
+
+I do not merge unsigned commits.
+
+## Repository conventions
+
+**Language.** Everything in the repositories is in English. The site
+[openfsp.org](https://openfsp.org) is also published in French. Issues may be written in
+English, French or Haitian Creole.
+
+**Commit messages.** Conventional Commits: `type(scope): summary in the imperative`, in
+English. Types: `feat`, `fix`, `docs`, `test`, `refactor`, `perf`, `build`, `ci`, `chore`.
+
+**Pull request scope.** One topic per pull request.
+
+**Tests.** Any change to specified behaviour comes with a conformance test. Any bug fix
+comes with a test that fails without the fix. This applies to the gateway as well as the
+SDKs.
+
+## Reporting a vulnerability
+
+Do not open a public issue. Follow [SECURITY.md](SECURITY.md).
+
+## Code of conduct
+
+Participation is governed by the [code of conduct](CODE_OF_CONDUCT.md). Reports:
+conduct@karakosystems.com.
+
+## License
+
+Every contribution is published under the [Apache 2.0 license](LICENSE).
