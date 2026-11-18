@@ -17,39 +17,8 @@ providers. A provider implements it once; a merchant application speaks it once 
 with every compatible provider.
 
 This repository holds the governance: who decides, how decisions are made, and what
-adopters can rely on.
-
-## The idea
-
-Without a shared contract, each of `L` merchant applications integrates each of `O`
-providers: `O × L` integrations. With OpenFSP, each application speaks one protocol and
-each provider implements that contract once: `O + L`.
-
-```mermaid
-flowchart LR
-    apps["Merchant applications<br/><i>HTTP or SDK</i>"]
-    subgraph std["OpenFSP contract"]
-        G["Gateway<br/><i>self-hosted by the merchant</i>"]
-        N["Native provider"]
-    end
-    apps --> G
-    apps --> N
-    G --> M["MonCash API"]
-    G --> C["NatCash API"]
-```
-
-A native provider speaks OpenFSP directly. Until providers do, the gateway translates the
-contract into the existing MonCash and NatCash APIs, so it is usable today.
-
-## Components
-
-| Component | Role |
-|---|---|
-| **Specification** | The contract: data model, lifecycle, capabilities, errors, idempotency, webhooks, authentication, conformance. |
-| **Gateway** | One implementation, self-hosted by the merchant: OpenFSP in, MonCash and NatCash APIs out. |
-| **Simulator** | Plays the providers, failures included, and a native OpenFSP provider, for testing without a merchant account. |
-| **SDKs** | Kotlin for the JVM on Maven Central (`org.openfsp:openfsp-sdk`) and TypeScript on npm (`@openfsp/sdk`). The protocol also works over plain HTTP. |
-| **Conformance suite** | Checks a gateway or a native provider against the specification; anyone can rerun it. |
+adopters can rely on. The idea and the components are described on the
+[organization profile](https://github.com/openfspht).
 
 ## Links
 
