@@ -10,7 +10,6 @@ vendor/
 .venv/
 __pycache__/
 
-# Provider credentials load from the environment, never from a tracked file.
 .env
 .env.*
 !.env.example
