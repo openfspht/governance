@@ -38,34 +38,11 @@ Procedure: a pull request that adds a section to the
 - Governance: [openfspht/governance](https://github.com/openfspht/governance), this
   repository.
 
-## Developer Certificate of Origin (DCO)
+## Licensing of contributions
 
-OpenFSP uses no contributor license agreement: you keep your copyright. Each commit
-certifies the [Developer Certificate of Origin](DCO) with a `Signed-off-by` line:
-
-```bash
-git commit -s -m "fix: reject a payment amount of zero"
-```
-
-which adds:
-
-```
-Signed-off-by: Your Name <your.email@example.com>
-```
-
-Use your real name and a real email address. To sign the last commit afterwards:
-
-```bash
-git commit --amend -s --no-edit
-```
-
-For a whole branch:
-
-```bash
-git rebase --signoff main
-```
-
-We do not merge unsigned commits.
+OpenFSP uses no contributor license agreement and no sign-off: you keep your copyright.
+Under section 5 of the [Apache License 2.0](LICENSE), a contribution you submit is
+licensed under the same terms as the project.
 
 ## Repository conventions
 
